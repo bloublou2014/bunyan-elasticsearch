@@ -4,12 +4,10 @@ bunyan-stream-elasticsearch
 [![npm version](https://badge.fury.io/js/bunyan-stream-elasticsearch.svg)](https://badge.fury.io/js/bunyan-stream-elasticsearch)
 [![Build Status](https://travis-ci.org/bloublou2014/bunyan-stream-elasticsearch.svg)](https://travis-ci.org/bloublou2014/bunyan-stream-elasticsearch)
 [![Dependency Status](https://david-dm.org/bloublou2014/bunyan-stream-elasticsearch.svg)](https://david-dm.org/bloublou2014/bunyan-stream-elasticsearch)
-[![Dev Dependency Status](https://david-dm.org/bloublou2014/bunyan-stream-elasticsearch/dev-status.svg)](https://david-dm.org/bloublou2014/bunyan-stream-elasticsearch#type=dev)
+[![Dev Dependency Status](https://david-dm.org/bloublou2014/bunyan-stream-elasticsearch/dev-status.svg)](https://david-dm.org/bloublou2014/bunyan-stream-elasticsearch?type=dev)
 [![Known Vulnerabilities](https://snyk.io/test/github/bloublou2014/bunyan-stream-elasticsearch/badge.svg)](https://snyk.io/test/github/bloublou2014/bunyan-stream-elasticsearch)
 
 A Bunyan stream for saving logs into Elasticsearch 5.x with custom write function.
-
-V1.0 requires ES6.
 
 ## Install
 
@@ -77,14 +75,3 @@ logger.info('Starting application on port %d', app.get('port'));
 * `writeCallback` {function} : Custom write callback to modify the log entry before pushing it to Elasticsearch. 
 
 Options `type` and `index` can be either a string or function. For these options, when the option is set to a function, the function is passed the log entry object as an argument
-
-## Contributors
-
-- [Bending Bender](https://github.com/BendingBender)
-
-## Changelog
-
-### 2017/10/22
-
-- refactoring in ES6 class format
-
