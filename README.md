@@ -4,7 +4,7 @@ bunyan-stream-elasticsearch
 [![npm version](https://badge.fury.io/js/bunyan-stream-elasticsearch.svg)](https://badge.fury.io/js/bunyan-stream-elasticsearch)
 [![Build Status](https://travis-ci.org/bloublou2014/bunyan-stream-elasticsearch.svg)](https://travis-ci.org/bloublou2014/bunyan-stream-elasticsearch)
 [![Dependency Status](https://david-dm.org/bloublou2014/bunyan-stream-elasticsearch.svg)](https://david-dm.org/bloublou2014/bunyan-stream-elasticsearch)
-[![Dev Dependency Status](https://david-dm.org/bloublou2014/bunyan-stream-elasticsearch/dev-status.svg)](https://david-dm.org/bloublou2014/bunyan-stream-elasticsearch#type=dev)
+[![Dev Dependency Status](https://david-dm.org/bloublou2014/bunyan-stream-elasticsearch/dev-status.svg)](https://david-dm.org/bloublou2014/bunyan-stream-elasticsearch?type=dev)
 [![Known Vulnerabilities](https://snyk.io/test/github/bloublou2014/bunyan-stream-elasticsearch/badge.svg)](https://snyk.io/test/github/bloublou2014/bunyan-stream-elasticsearch)
 
 A Bunyan stream for saving logs into Elasticsearch 5.x with custom write function.
