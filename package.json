@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/bloublou2014/bunyan-stream-elasticsearch",
   "dependencies": {
-    "elasticsearch": "^13.3.1",
+    "elasticsearch": "^15.0.0",
     "lodash": "^4.17.4",
     "moment": "^2.19.1"
   },
