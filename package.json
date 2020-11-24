@@ -34,7 +34,7 @@
     "elasticsearch": "^15.0.0",
     "lodash": "^4.17.16",
     "moment": "^2.19.3",
-    "snyk": "^1.362.0"
+    "snyk": "^1.425.4"
   },
   "devDependencies": {
     "bluebird": "^3.5.1",
